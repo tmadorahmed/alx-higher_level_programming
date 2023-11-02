@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-import string
-exec("print(''.join({}))".format(repr(string.ascii_uppercase)))
+from string import ascii_uppercase
+print(ascii_uppercase)
